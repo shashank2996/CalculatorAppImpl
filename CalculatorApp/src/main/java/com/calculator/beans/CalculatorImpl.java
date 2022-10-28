@@ -3,8 +3,8 @@ package com.calculator.beans;
 public class CalculatorImpl implements Calculator {
 
 	@Override
-	public int add(int a, int b) {
-		int sum=a+b;
+	public int add(int a,int x) {
+		int sum=a+x;
 		return sum;
 	}
 
